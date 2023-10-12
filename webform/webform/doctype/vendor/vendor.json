@@ -17,6 +17,8 @@
   "enabled",
   "section_break_fdaok",
   "user",
+  "column_break_5ughb",
+  "url",
   "column_break_1uthq",
   "role"
  ],
@@ -75,11 +77,22 @@
   {
    "fieldname": "column_break_1uthq",
    "fieldtype": "Column Break"
+  },
+  {
+   "default": "http://localhost:8028/vendor-details/new",
+   "fieldname": "url",
+   "fieldtype": "Data",
+   "label": "Url",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_5ughb",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-11 15:44:48.409517",
+ "modified": "2023-10-12 09:43:05.680656",
  "modified_by": "Administrator",
  "module": "webform",
  "name": "vendor",

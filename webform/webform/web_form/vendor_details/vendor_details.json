@@ -18,7 +18,7 @@
  "list_columns": [],
  "login_required": 1,
  "max_attachment_size": 0,
- "modified": "2023-10-11 13:37:10.347836",
+ "modified": "2023-10-12 10:14:33.490925",
  "modified_by": "Administrator",
  "module": "webform",
  "name": "vendor-details",
@@ -26,8 +26,9 @@
  "published": 1,
  "route": "vendor-details",
  "show_attachments": 0,
- "show_list": 1,
+ "show_list": 0,
  "show_sidebar": 0,
+ "success_url": "http://localhost:8028/vendor-details/new",
  "title": "Vendor Details",
  "web_form_fields": [
   {
