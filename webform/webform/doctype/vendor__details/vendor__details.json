@@ -137,12 +137,12 @@
    "options": "User"
   },
   {
-   "default": "Submitted",
+   "default": "New",
    "fieldname": "status",
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Status",
-   "options": "Submitted\nApproved\nRejected",
+   "options": "New\nApproved\nRejected",
    "read_only": 1
   },
   {
@@ -187,7 +187,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-11 15:51:40.459131",
+ "modified": "2023-10-12 12:25:09.305194",
  "modified_by": "Administrator",
  "module": "webform",
  "name": "Vendor  details",

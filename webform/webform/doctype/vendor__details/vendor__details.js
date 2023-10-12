@@ -7,7 +7,8 @@ frappe.ui.form.on('Vendor  details', {
 
 	},
 	approve_reject:function(frm){
-		if(frm.doc.status=="Submitted"){
+		if(frm.doc.status=="New"){
+			console.log("new");
 			frm.page.add_action_item("Approve", () => {
 			
 				frm.doc.status = "Approved";
